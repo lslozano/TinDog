@@ -62,21 +62,55 @@ h1 {
 }
 
 .features-info > h3 {
-  font-family: 'Monsterrat', sans-serif;
+  font-family: 'Monsterrat-Bold', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .features-info > p {
   color: #8f8f8f
 } 
 
+/* Testimonials */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 17.5%;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
 /******************ID SELECTORS*****************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
 #features {
   padding: 7% 15%;
 }
 
-#title {
-  background-color: #ff4c68;
+#testimonials {
+  background-color: #ef8172;
   color: #fff;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
 }
