@@ -21,7 +21,7 @@ h1 {
   padding: 3% 15% 7%;
 }
 
-/* Navigation Bar */
+/* NAVIGATION BAR */
 .brand-logo {
   color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
@@ -42,12 +42,12 @@ h1 {
   font-family: 'Montserrat-Light', sans-serif;
 }
 
-/* Download Buttons */
+/* DOWNLOAD BUTTONS */
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* Features */
+/* FEATURES */
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -71,7 +71,7 @@ h1 {
   color: #8f8f8f
 } 
 
-/* Testimonials */
+/* TESTIMONIALS */
 .carousel-item {
   padding: 7% 15%;
 }
@@ -88,13 +88,13 @@ h1 {
   line-height: 1.5;
 }
 
-/* Press */
+/* PRESS */
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-/* Pricing */
+/* PRICING */
 .pricing-column {
   padding: 3% 2%;
 }
@@ -113,6 +113,26 @@ h1 {
 .card-body > p {
   font-family: 'Monsterrat-Bold', sans-serif;
   color: #8f8f8f;
+}
+
+/* CALL TO ACTION */
+.cta-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.contact-icon {
+  color: #000;
+  margin: 1% 1%;
+}
+
+.contact-icon:hover {
+  color: #ff4C68;
+}
+
+.copyright {
+  margin-top: 2%;
 }
 
 /******************ID SELECTORS*****************/
@@ -154,10 +174,24 @@ h1 {
   color: #8f8f8f;
 }
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #fff;
+  color: #8f8f8f;
+  padding: 5% 5%;
+  text-align: center;
+}
+
 /************************MEDIA QUERIES*****************/
 
 /* Display of img-app-preview on tablet and above */
-@media (max-width: 1028px) {
+@media (max-width: 992px) {
   .brand-info {
     text-align: center;
   }
@@ -165,5 +199,6 @@ h1 {
   .img-app-preview { 
     position: static; 
     transform: rotate(0);
+    width: 50%;
   }
 }
